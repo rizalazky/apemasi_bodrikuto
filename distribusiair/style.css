@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.tools{
+    padding: 10px;
+    width: 200px;
+}
+
+.table{
+    border: none;
+    border: 1px solid black;
+    z-index: 100;
+}
+
+.table th{
+    background-color: black;
+}
+
+.table th select{
+    text-align-last: center;
+    color: white;
+    outline: none;
+    background-color: black;
+}
+
+.table tr td{
+    /* border-bottom: 1px solid black; */
+}
+
+.context{
+    min-height: 500vh;
+    flex: 1;
+    /* overflow:auto; */
+    position: relative;
+    /* background-color: blanchedalmond; */
+}
+
+.bahan{
+    /* position: absolute; */
+    z-index: 3;
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.panah{
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    z-index: 1;
+    background-color: black;
+}
+
+.ujung{
+    display: inline-block;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.line{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+}
+
+.bulet{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 4;
+    border: 3px solid black;
+}
+
+.popup{
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.animated{
+    animation: dapdip infinite 1s;
+} 
+
+.text {
+    font-weight: bold;
+    /* width: 100px; */
+}
+
+@keyframes dapdip{
+    from{
+        background-color: white;
+    }
+    to{
+        
+    }
+}

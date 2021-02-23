@@ -1,0 +1,4 @@
+[06-Dec-2019 04:20:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/skyindol/public_html/sisda/config/koneksi.php on line 16
+[06-Dec-2019 04:20:11 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/skyindol/public_html/sisda/config/koneksi.php on line 16
+[06-Dec-2019 04:20:57 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/skyindol/public_html/sisda/config/koneksi.php on line 16
+[06-Dec-2019 04:21:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/skyindol/public_html/sisda/config/koneksi.php on line 16

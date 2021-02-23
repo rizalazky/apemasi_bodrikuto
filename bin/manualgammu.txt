@@ -1,0 +1,7 @@
+> cara install service gammu
+
+	gammu-smsd.exe -c smsdrc -i 
+
+> Cara hapu service gammu
+	sc delete GammuSMSD
+
