@@ -16,47 +16,27 @@
 
 
   <?php
-  // include '../config/koneksi.php';
   include './conn.php';
+  include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
-    <div class="headerCSS">
-      <div class="header__logoJateng">
-        <img class="animate__animated animate__swing animate__infinite infinite" src="../assets/header/logo_jateng.png" alt="Logo" />
-        <div class="header__title">
-          <h1>APEMASI</h1>
-          <span> BPSDA BODRI KUTO</span>
-        </div>
-      </div>
-
-      <div class="header__logoPublikasi">
-        <img src="../assets/header/gunung.png" alt="" srcset="" />
-        <div class="header__title">
-          <span class="publikasi_distibusi">
-            <marquee scrollamount="15">
-              PUBLIKASI DISTRIBUSI AIR IRIGASI</marquee>
-          </span>
-        </div>
-      </div>
-
-      <div class="header__logoJatengGayeng">
-        <img class="animate__animated animate__flipInY" src="../assets//header//logoJatengGayeng.png" alt="" srcset="" />
-      </div>
-    </div>
-    <div class='container'>
     <?php
     include($_GET['kode_bendung'] . ".php");
   } else { ?>
-      <ul style='display:flex;flex-direction:column;'>
+      <div class='list-bendung-container'>
         <?php $query = mysqli_query($conn, "SELECT kode,bendung FROM bendung");
         while ($r = mysqli_fetch_array($query)) { ?>
-          <li>
-            <a href="?kode_bendung=<?php echo $r['kode']; ?>"><?php echo $r['bendung']; ?></a>
-          </li>
-      <?php
-        }
-      }
-      ?>
-      </ul>
+          <div class="list-bendung-item">
+            <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
+              <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image'>
+              <div class='list-bendung-desc'>
+                <?php echo $r['bendung']; ?>
+              </div>
+            </a>
+        </div>
+      <?php } ?>
+        </div>
+<?php } ?>
+
       <script>
         let queryString = window.location.search;
         let UrlParams = new URLSearchParams(queryString)
@@ -92,11 +72,9 @@
           }
         }
 
-        setInterval(() => {
-          fetchData()
-        }, 1000)
-
-
+      
+        fetchData()
+    
         function fetchData() {
           console.log('test')
           fetch('http://localhost/E-sisda_skema_editor/filebendung/getBendung.php?kode_bendung=' + KodeBendung).
