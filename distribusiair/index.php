@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../header.css">
+  <link rel="stylesheet" href="detail.css">
 </head>
 
 <body>
@@ -42,6 +43,9 @@
         <img class="animate__animated animate__flipInY" src="../assets//header//logoJatengGayeng.png" alt="" srcset="" />
       </div>
     </div>
+    <?php
+    include './detail.php';
+    ?>
     <div class='container'>
     <?php
     include($_GET['kode_bendung'] . ".php");

@@ -3,9 +3,11 @@
     margin: 0;
 }
 
+
 .container{
     display: flex;
     height: 100vh;
+    /* background-color: blueviolet; */
 }
 
 .tools{
