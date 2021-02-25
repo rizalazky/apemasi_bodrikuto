@@ -18,6 +18,7 @@
 
   <?php
   include './../config/koneksi.php';
+  // include 'conn.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
 
@@ -29,8 +30,8 @@
     include($_GET['kode_bendung'] . ".php");
   } else { ?>
       <div class='list-bendung-container'>
-        <?php $query = mysqli_query($conn, "SELECT kode,bendung FROM bendung");
-        while ($r = mysqli_fetch_array($query)) { ?>
+        <?php $query = mysql_query("SELECT kode,bendung FROM bendung");
+        while ($r = mysql_fetch_array($query)) { ?>
           <div class="list-bendung-item">
             <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
               <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image'>
