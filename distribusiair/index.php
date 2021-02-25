@@ -17,7 +17,7 @@
 
 
   <?php
-  include './conn.php';
+  include './../config/koneksi.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
 
@@ -83,7 +83,7 @@
     
         function fetchData() {
           console.log('test')
-          fetch('http://localhost/E-sisda_skema_editor/filebendung/getBendung.php?kode_bendung=' + KodeBendung).
+          fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
           then(res => {
             return res.json()
           }).then(result => {
