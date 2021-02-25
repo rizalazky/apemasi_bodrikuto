@@ -4,9 +4,9 @@
 
 require_once('fungsi_validasi.php');
 
-$server   = "localhost:3306";
-$username = "bodrikut_apemasi";
-$password = "123Februari";
+$server   = "localhost";
+$username = "root";
+$password = "";
 $database = "bodrikut_apemasi";
 $bpsda    = "BPUSDATARU BODRI KUTO";
 $lbpsda   = "BALAI PU SDA TATA RUANG BODRI KUTO";
