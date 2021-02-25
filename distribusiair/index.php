@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../header.css">
+  <link rel="stylesheet" href="detail.css">
 </head>
 
 <body>
@@ -19,6 +20,11 @@
   include './conn.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
+
+    
+    <?php
+    include './detail.php';
+    ?>
     <?php
     include($_GET['kode_bendung'] . ".php");
   } else { ?>
@@ -99,7 +105,7 @@
           text[index].style.textAlign = 'center'
         }
       </script>
-    </div>
+
     <!-- <div class="footer">
       Copyright @2021 pemalicomal
     </div> -->
