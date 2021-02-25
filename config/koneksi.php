@@ -18,7 +18,7 @@ if(mysql_connect($server,$username,$password)){
 
     mysql_select_db($database) or die("Database tidak bisa dibuka".mysql_error());
 }else{
-    die("Koneksi gagal");
+    die("Koneksi gagal".mysql_error());
 }
 
 
