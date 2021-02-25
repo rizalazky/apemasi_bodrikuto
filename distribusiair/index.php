@@ -16,7 +16,8 @@
 
 
   <?php
-  include '../config/koneksi.php';
+  // include '../config/koneksi.php';
+  include './conn.php';
   if (!empty($_GET['kode_bendung'])) { ?>
     <div class="headerCSS">
       <div class="header__logoJateng">
