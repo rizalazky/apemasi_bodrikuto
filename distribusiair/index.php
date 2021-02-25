@@ -31,7 +31,9 @@
   } else { ?>
       <div class='list-bendung-container'>
         <?php $query = mysql_query("SELECT kode,bendung FROM bendung");
-        while ($r = mysql_fetch_array($query)) { ?>
+        while ($r = mysql_fetch_array($query)) { 
+          if(file_exists ($r['kode'].'.php')){
+          ?>
           <div class="list-bendung-item">
             <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
               <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image'>
@@ -40,8 +42,8 @@
               </div>
             </a>
         </div>
-      <?php } ?>
-        </div>
+      <?php }} ?>
+      </div>
 <?php } ?>
 
       <script>
