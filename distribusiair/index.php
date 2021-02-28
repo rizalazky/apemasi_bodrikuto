@@ -18,7 +18,7 @@
 
   <?php
   // include './../config/koneksi.php';
-  include 'conn.php';
+  include '../config/koneksi.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
 
@@ -30,8 +30,8 @@
     include($_GET['kode_bendung'] . ".php");
   } else { ?>
       <div class='list-bendung-container'>
-        <?php $query = mysqli_query($conn,"SELECT kode,bendung FROM bendung");
-        while ($r = mysqli_fetch_array($query)) { 
+        <?php $query = mysql_query("SELECT kode,bendung FROM bendung");
+        while ($r = mysql_fetch_array($query)) { 
           if(file_exists ($r['kode'].'.php')){
           ?>
           <div class="list-bendung-item">
@@ -88,7 +88,7 @@
         let lok=[]
         function fetchData() {
           // console.log('test')
-          fetch('http://localhost:8056/apemasi_bodrikuto/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
+          fetch('http://bodrikuto.com/distribusiair/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
           then(res => {
             return res.json()
           }).then(result => {
