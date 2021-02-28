@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../header.css">
   <link rel="stylesheet" href="detail.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" />
+  <script src="https://use.fontawesome.com/f6c656a136.js"></script>
 </head>
 
 <body>
@@ -22,53 +25,61 @@
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
 
-    
+
     <?php
     include './detail.php';
     ?>
-    <?php
+  <?php
     include($_GET['kode_bendung'] . ".php");
   } else { ?>
+    <div class="container">
+      <div class="button__navigasi">
+        <button><a href=".."><i class="fa fa-arrow-left" aria-hidden="true"> Back</i></a></button>
+        <button><a href="../login/"><i class="fa fa-user" aria-hidden="true"> Login</i></a></button>
+      </div>
+
       <div class='list-bendung-container'>
         <?php $query = mysql_query("SELECT kode,bendung FROM bendung");
-        while ($r = mysql_fetch_array($query)) { 
-          if(file_exists ($r['kode'].'.php')){
-          ?>
-          <div class="list-bendung-item">
-            <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
-              <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image'>
-              <div class='list-bendung-desc'>
-                <?php echo $r['bendung']; ?>
-              </div>
-            </a>
-        </div>
-      <?php }} ?>
+        while ($r = mysql_fetch_array($query)) {
+          if (file_exists($r['kode'] . '.php')) {
+        ?>
+            <div class="list-bendung-item">
+              <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
+                <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image animate__animated animate__zoomInDown'>
+                <div class='list-bendung-desc animate__animated animate__zoomInDown'>
+                  <h3><?php echo $r['bendung']; ?></h3>
+                </div>
+              </a>
+            </div>
+        <?php }
+        } ?>
       </div>
-<?php } ?>
+    </div>
+  <?php } ?>
 
-      <script>
-        let queryString = window.location.search;
-        let UrlParams = new URLSearchParams(queryString)
-        let KodeBendung = UrlParams.get('kode_bendung');
-        const table = document.getElementsByClassName('table');
-        const lokasi = document.getElementsByClassName('lokasi');
+  <script>
+    let queryString = window.location.search;
+    let UrlParams = new URLSearchParams(queryString)
+    let KodeBendung = UrlParams.get('kode_bendung');
+    const table = document.getElementsByClassName('table');
+    const lokasi = document.getElementsByClassName('lokasi');
 
-        // console.log(lokasi)
-        let data = []
+    // console.log(lokasi)
+    let data = []
 
-        function setValueTable() {
-          // console.log(data)
-          for (let i = 0; i < table.length; i++) {
-            // console.log(table[i].children[1])
-            // console.log(lokasi[i].value)
-            let area, qAlir;
-            for (let x = 0; x < data["query"].length; x++) {
-              if (lokasi[i].value == data["query"][x].lokasi) {
-                area = data["query"][x].a_tanam;
-                qAlir = data["query"][x].q_diberikan
-              }
-            }
-            table[i].children[1].innerHTML = `
+    function setValueTable() {
+      // console.log(data)
+      for (let i = 0; i < table.length; i++) {
+        // console.log(table[i].children[1])
+        // console.log(lokasi[i].value)
+        let area, qAlir;
+        for (let x = 0; x < data["query"].length; x++) {
+          if (lokasi[i].value == data["query"][x].lokasi) {
+            area = data["query"][x].a_tanam;
+            qAlir = data["query"][x].q_diberikan
+          }
+        }
+        table[i].children[1].innerHTML = `
           <tr>
             <td>Areal</td>
             <td>${area}</td>
@@ -78,124 +89,126 @@
             <td>${qAlir}</td>
           </tr>
         `
-          }
+      }
+    }
+
+
+    fetchData()
+
+    let qdiberi = []
+    let lok = []
+
+    function fetchData() {
+      // console.log('test')
+      fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
+      then(res => {
+        return res.json()
+      }).then(result => {
+        data = result
+        console.log(result, 'result')
+
+        for (let z = 0; z < data["query"].length; z++) {
+          const dt = data["query"][z];
+          qdiberi.push(dt.q_diberikan)
+          lok.push(dt.lokasi)
+
         }
 
-      
-        fetchData()
+        setValueTable()
+        setSum();
+        setDetail();
+      }).catch(err => console.log(err))
+    }
+    const select = document.getElementsByTagName('select')
 
-        let qdiberi=[]
-        let lok=[]
-        function fetchData() {
-          // console.log('test')
-          fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
-          then(res => {
-            return res.json()
-          }).then(result => {
-            data = result
-            console.log(result,'result')
+    for (let index = 0; index < select.length; index++) {
+      select[index].setAttribute('disabled', true)
+      select[index].style.textAlign = 'center'
+    }
+    const text = document.getElementsByClassName('text')
 
-            for (let z = 0; z < data["query"].length; z++) {
-              const dt = data["query"][z];
-              qdiberi.push(dt.q_diberikan)
-              lok.push(dt.lokasi)
-              
+    for (let index = 0; index < text.length; index++) {
+      text[index].setAttribute('contenteditable', false)
+      text[index].style.textAlign = 'center'
+    }
+
+    function setSum() {
+      for (let index = 0; index < text.length; index++) {
+        const element = text[index];
+        let nilaiid = element.dataset.nilaiid
+        let q_berikan = element.dataset.qberikan
+        if (nilaiid != null || q_berikan != null) {
+          sumDebit(text[index].id, nilaiid, q_berikan)
+          // document.getElementById(nilaiid).innerHTML =setvalue
+          // console.log('panggil func'+index)
+        }
+      }
+    }
+
+    function sumDebit(id, nl, qberi) {
+      let docid = document.getElementById(id)
+      let element = '';
+      let nilai = 0;
+      let totaldebit = 0
+      if (nl != undefined && nl != "" && nl != null && nl != 'undefined') {
+        let arrayNilai = nl.split(",")
+        for (let index = 0; index < arrayNilai.length; index++) {
+          element = document.getElementById(arrayNilai[index])
+          nilai = Number(element.textContent) + nilai
+
+        }
+      }
+
+      totaldebit = totaldebit + Number(nilai)
+
+      let array = qberi.split(",")
+      // console.log(array)
+      // let lokasibaru=
+      if (lok.length > 0) {
+        array.map(l => {
+
+          for (let s = 0; s < lok.length; s++) {
+            // console.log(lok[s])
+            if (data["query"][s].lokasi == l) {
+              totaldebit = totaldebit + Number(qdiberi[s])
+              // console.log(qdiberi[s],'qdiberi')
+
+              // return totaldebit
             }
-            
-            setValueTable()
-            setSum();
-            setDetail();
-          }).catch(err => console.log(err))
-        }
-        const select = document.getElementsByTagName('select')
 
-        for (let index = 0; index < select.length; index++) {
-          select[index].setAttribute('disabled', true)
-          select[index].style.textAlign = 'center'
-        }
-        const text = document.getElementsByClassName('text')
-
-        for (let index = 0; index < text.length; index++) {
-          text[index].setAttribute('contenteditable', false)
-          text[index].style.textAlign = 'center'
-        }
-
-        function setSum() {
-          for (let index = 0; index < text.length; index++) {
-            const element = text[index];
-            let nilaiid=element.dataset.nilaiid
-            let q_berikan=element.dataset.qberikan
-            if( nilaiid!=null || q_berikan!=null ){
-              sumDebit(text[index].id,nilaiid,q_berikan)
-              // document.getElementById(nilaiid).innerHTML =setvalue
-              // console.log('panggil func'+index)
-            }
           }
-        }
-        
-        function sumDebit(id,nl,qberi) {
-          let docid=document.getElementById(id)
-          let element='';
-          let nilai=0;
-          let totaldebit=0
-          if (nl!=undefined && nl!="" && nl !=null && nl!='undefined' ) {
-            let arrayNilai = nl.split(",")
-            for (let index = 0; index < arrayNilai.length; index++) {
-              element=document.getElementById(arrayNilai[index])
-              nilai=Number(element.textContent)+nilai
-              
-            }
-          }
+          // console.log(totaldebit, array)
 
-          totaldebit=totaldebit+Number(nilai)
+        })
+      }
+      // console.log(totaldebit, 'cek')
+      docid.innerHTML = totaldebit.toFixed(2)
+      // console.log(element)
+    }
 
-          let array=qberi.split(",")
-          // console.log(array)
-          // let lokasibaru=
-          if(lok.length >0){
-            array.map(l=>{
 
-              for (let s = 0; s < lok.length; s++) {
-                // console.log(lok[s])
-                if(data["query"][s].lokasi==l){
-                  totaldebit=totaldebit+ Number(qdiberi[s])
-                  // console.log(qdiberi[s],'qdiberi')
-                 
-                  // return totaldebit
-                }
-                
-              }
-              // console.log(totaldebit, array)
-              
-            })        
-          }
-          // console.log(totaldebit, 'cek')
-          docid.innerHTML=totaldebit.toFixed(2)
-          // console.log(element)
-        }
+    function setDetail() {
+      let debit = 0
+      let diperlukan = Number(data["q_debit"][0].debit)
+      for (let i = 0; i < qdiberi.length; i++) {
+        debit = debit + Number(qdiberi[i]);
+      }
+      let debitTersedia = document.getElementById('debittersedia')
+      let debitDiperlukan = document.getElementById('debitdiperlukan')
+      let faktorK = document.getElementById('faktorK')
+      let periode = document.getElementById('periode')
 
-        
-        function setDetail(){
-          let debit = 0
-          let diperlukan = Number(data["q_debit"][0].debit)
-          for (let i = 0; i < qdiberi.length; i++) {
-            debit = debit + Number(qdiberi[i]); 
-          }
-          let debitTersedia = document.getElementById('debittersedia')
-          let debitDiperlukan = document.getElementById('debitdiperlukan')
-          let faktorK = document.getElementById('faktorK')
-          let periode = document.getElementById('periode')
-          
-          debitDiperlukan.innerHTML = diperlukan.toFixed(2)
-          periode.innerHTML = "<strong>: "+data['periode']+"</strong>"
-          debitTersedia.innerHTML = debit.toFixed(2)
-          faktorK.innerHTML = debit/diperlukan > 1 ? "<strong>"+'1.00'+"</strong>" : "<strong>"+ (debit/diperlukan).toFixed(2)+"</strong>"
+      debitDiperlukan.innerHTML = diperlukan.toFixed(2)
+      periode.innerHTML = "<strong>: " + data['periode'] + "</strong>"
+      debitTersedia.innerHTML = debit.toFixed(2)
+      faktorK.innerHTML = debit / diperlukan > 1 ? "<strong>" + '1.00' + "</strong>" : "<strong>" + (debit / diperlukan).toFixed(2) + "</strong>"
 
-        }
-      </script>
+    }
+  </script>
 
-    <!-- <div class="footer">
+  <!-- <div class="footer">
       Copyright @2021 pemalicomal
     </div> -->
 </body>
+
 </html>

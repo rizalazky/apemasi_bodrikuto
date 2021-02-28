@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="APEMASI BODRI KUTO">
   <meta name="author" content="Azky kun, Reza Ganteng, Ari">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo-jateng.png">
   <title>Sistem Informasi PSDA Bodri Kuto</title>
@@ -72,15 +72,15 @@
               <div class="col-lg-4 col-md-6 m-b-40 m-t-30">
                 <div class="card card-outline-inverse" style="background-color:#189bed; border-color:#189bed;">
                   <div class="card-body">
-                    <p style="color: #fafafa">Hidrology Bank Data</p>
-                    <a href="https://bpusdataru-pc.jatengprov.go.id/pengendalian-banjir-dan-kekeringan/" class="btn waves-effect btn-lg btn-secondary" style="background-color:#1693e0; border-color:#1693e0; margin: 5px;" title="Hidrology Bank Data"><i class="mdi mdi-lg mdi-water"></i></a>
+                    <p style="color: #fafafa">WEBSITE BODRIKUTO</p>
+                    <a href="https://bpusdataru-bk.jatengprov.go.id/" class="btn waves-effect btn-lg btn-secondary" style="background-color:#1693e0; border-color:#1693e0; margin: 5px;" title="Hidrology Bank Data"><i class="mdi mdi-lg mdi-water"></i></a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 m-t-30">
                 <div class="card card-outline-inverse" style="background-color: #35db64; border-color: #35db64;">
                   <div class="card-body">
-                    <p style="color: #fafafa">Publikasi Alokasi Air</p>
+                    <p style="color: #fafafa">CONTENT 2</p>
                     <a href="./distribusiair/" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#32d15f; border-color:#32d15f; margin: 5px;" title="Task Progression 2019"><i class="fa fa-bar-chart-o"></i></a>
                   </div>
                 </div>
@@ -107,7 +107,7 @@
               <div class="col-lg-3 col-md-6">
                 <div class="card card-outline-inverse" style="background-color: #eb4f46; border-color: #eb4f46;">
                   <div class="card-body">
-                    <p style="color: #fafafa">Clearing House HIDROMETEOROLOGI</p>
+                    <p style="color: #fafafa">CONTENT 4</p>
                     <a href="http://jateng.hidromet.sih3.bmkg.go.id/" class="btn btn-lg btn-secondary" style="background-color: #e64b43; border-color: #e64b43; margin: 5px;" title="Sistem Informasi Pegawai"><i class="fa fa-institution"></i></a>
                   </div>
                 </div>
@@ -149,17 +149,17 @@
 
             <div class="col-md-8 col-lg-9">
 
-              <h3 class="box-title m-b-0">Balai PSDA Pemali Comal</h3> <small>Kantor Balai Pengelolaan Sumber Daya Air Pemali Comal Provinsi Jawa Tengah</small>
+              <h3 class="box-title m-b-0">Balai PSDA Bodri Kuto</h3> <small>Kantor Balai Pengelolaan Sumber Daya Air Bodri Kuto Provinsi Jawa Tengah</small>
 
               <address>
 
                 <!-- Jl. Dr. Sutomo No. 53 Pemali Comal, Pekauman, Kec. Tegal Bar., Kota Tegal, Jawa Tengah 52112 -->
 
                 <br>
-                <abbr title="Phone">SMS</abbr> 0821-3696-3191
+                <abbr title="Phone">SMS</abbr> 0812-2228-7506
                 <br>
 
-                <abbr title="Phone">PHONE</abbr> (0283) 356259
+                <abbr title="Phone">PHONE</abbr> (024) 7600245
 
               </address>
 
@@ -175,7 +175,7 @@
   <!-- barbawah -->
   <footer class="footer">
 
-    © 2019 E-SISDA PEMALI COMAL
+    © 2021 PEMALI COMAL
 
   </footer>
 
