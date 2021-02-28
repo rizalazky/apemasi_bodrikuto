@@ -23,13 +23,13 @@ $data = array(
     "periode"=>$periode,
 );
 if (!$query) {
-    echo mysqli_error($conn);
+    echo mysql_error($conn);
     die;
 } else {
-    while ($row = mysqli_fetch_array($query)) {
+    while ($row = mysql_fetch_array($query)) {
         array_push($data["query"], $row);
     }
-    while ($debit = mysqli_fetch_array($q_debit)) {
+    while ($debit = mysql_fetch_array($q_debit)) {
         array_push($data["q_debit"], $debit);
     }
 }
