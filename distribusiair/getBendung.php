@@ -2,7 +2,7 @@
 include '../config/koneksi.php';
 include '../config/fungsi_indotgl.php';
 $dt = mysql_fetch_array(mysql_query("SELECT id,periode,bulan,tahun FROM `alokasi` ORDER BY id DESC"));
-$query = mysql_query("select id,lokasi,a_tanam,q_diberikan,periode,bulan,tahun FROM alokasi WHERE id in (SELECT MAX(alo.id) FROM alokasi alo GROUP BY alo.lokasi) AND di='$_GET[kode_bendung]' ORDER BY id DESC");
+$query = mysql_query("select id,lokasi,a_tanam,q_diberikan FROM alokasi WHERE id in (SELECT MAX(alo.id) FROM alokasi alo GROUP BY alo.lokasi) AND di='$_GET[kode_bendung]' ORDER BY id DESC");
 $q_debit = mysql_query("SELECT debit from elevasi WHERE kode='$_GET[kode_bendung]' ORDER BY id_elevasi DESC");
 $period = $dt['periode'];
 $blan = $dt['bulan'];
