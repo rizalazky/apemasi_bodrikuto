@@ -11,7 +11,7 @@ require_once('fungsi_validasi.php');
 // $bpsda    = "BPUSDATARU BODRI KUTO";
 // $lbpsda   = "BALAI PU SDA TATA RUANG BODRI KUTO";
 // $lokasi   = "Semarang";
-$web      = "http://www.bodrikuto.com/";
+// $web      = "http://www.bodrikuto.com/";
 $server   = "localhost:3306";
 $username = "bodrikut_apemasi";
 $password = "123Februari";
