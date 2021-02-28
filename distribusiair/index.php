@@ -88,7 +88,7 @@
         let lok=[]
         function fetchData() {
           // console.log('test')
-          fetch('http://bodrikuto.com/distribusiair/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
+          fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
           then(res => {
             return res.json()
           }).then(result => {
