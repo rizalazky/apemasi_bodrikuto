@@ -235,19 +235,6 @@ color: black;
   }
 
 
-  .air{
-      position: absolute;
-      left: 1250px;
-      transform: rotate(90deg);
-      top: -10px;
-  }
-
-  .air img {
-    height: 90px;
-    width: 45px;
-  }
-
-
 @keyframes dapdip{
     from{
         background-color: white;

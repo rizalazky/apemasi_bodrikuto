@@ -1,8 +1,6 @@
 <div class="context">
-  <div class="air">
-    <img src="../assets/images/air.png" alt="" srcset="">
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 100px; left: 1263px; background-color: white; color: rgb(102, 102, 102); width: 15px; height: 15px;">
+  <img src="./../assets/images/gambar-bendung.jpeg" alt="gambar-bendung" style="position: absolute; top: 1470px; left: 1265px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 100px; left: 1263px; background-color: rgb(2, 255, 90); color: rgb(102, 102, 102); width: 15px; height: 15px;">
 
   </div>
   <div class="bahan panah" data-rot="90" style="position: absolute; top: 1220px; left: -331px; transform: rotate(90deg); width: 2000px;">
