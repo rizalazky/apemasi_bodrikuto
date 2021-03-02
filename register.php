@@ -8,18 +8,10 @@ $sendNomer     = $_POST['nohp'];
 $receivingDatetime = $_POST['time'];
 $auth =$_POST['auth'];
 
-
-
 if ($auth=='b3901828dd8d18abb82d47f7ecffb537'){
     mysql_query("INSERT INTO phonebook(nama, no_hp) VALUES  ('$nama','$no_hp')");
                   
 // $quey="INSERT INTO elevasi(kode,bendung,elevasi,debit,Qka,Qki,tgl,jam,status,petugas) VALUES('$kode','$bendung','$elevasi','$debit','$Qka','$Qki','$tgl','$jam','$status','$petugas')" ;
-$smsquery="INSERT INTO inbox(TextDecoded,SenderNumber,ReceivingDateTime) VALUES('$sms','$sendNomer','$receivingDatetime')";
-if(mysql_query($quey) AND mysql_query($smsquery)){
-    echo "Berhasil Registrasi";
-}else{
-    echo "gagal".mysql_error();
-}
-}
-
+$smsquery="INSERT INTO inbox(TextDecoded,SenderNumber,ReceivingDateTime)VALUES('$sms','$sendNomer','$receivingDatetime')";
+mysql_query($smsquery);    
 ?>
