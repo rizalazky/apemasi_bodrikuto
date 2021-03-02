@@ -19,7 +19,7 @@ if ($auth=='2e422bed3131daf11e89016073b230cd'){
     }else{
         echo "gagal".mysql_error();
     }
-    }
+    
 }
 
 ?>
