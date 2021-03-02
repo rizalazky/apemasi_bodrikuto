@@ -1,5 +1,5 @@
 <div class="context">
-  <img src="./../assets/images/gambar-bendung.jpeg" alt="gambar-bendung" style="position: absolute; top: 1470px; left: 1265px;">
+  <img src="./../assets/images/gambar-bendung.jpeg" alt="gambar-bendung" style="position: absolute; top: 80px; left: 1265px;transform: rotate(90deg);">
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 100px; left: 1263px; background-color: rgb(2, 255, 90); color: rgb(102, 102, 102); width: 15px; height: 15px;">
 
   </div>
