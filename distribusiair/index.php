@@ -20,8 +20,8 @@
 
 
   <?php
-  // include './../config/koneksi.php';
-  include '../config/koneksi.php';
+  include './../config/koneksi.php';
+  // include 'conn.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
 
@@ -100,7 +100,7 @@
 
     function fetchData() {
       // console.log('test')
-      fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
+      fetch('http://localhost/apemasi_bodrikuto/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
       then(res => {
         return res.json()
       }).then(result => {
@@ -203,6 +203,15 @@
       debitTersedia.innerHTML = debit.toFixed(2)
       faktorK.innerHTML = debit / diperlukan > 1 ? "<strong>" + '1.00' + "</strong>" : "<strong>" + (debit / diperlukan).toFixed(2) + "</strong>"
 
+    }
+
+    function btnDownload(id) {
+      if (id = 'donlot_perhitungan') {
+        document.getElementById(id).href = "../uplod/" + data['file_alokasi']
+      }else{
+        document.getElementById(id).href = "../uplod/" + data['file_faktor_k']  
+      }
+      
     }
   </script>
 

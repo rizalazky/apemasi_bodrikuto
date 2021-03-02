@@ -8216,7 +8216,7 @@
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 359px; left: 313px;width: 186px;"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Bagi</span></div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 390px; left: 314px; width: 210px; color: rgb(0, 0, 0);"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Corong&nbsp;</span><br></div>
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 209px; left: 1145px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
-
+  
   </div>
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 211px; left: 1011px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
 
@@ -8886,3 +8886,11 @@
     </tbody>
   </table>
 </div>
+  <!--download-->
+  <div id="wb_element_instance793" class="wb_element">
+    <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_perhitungan" href=""><span>Download Perhitungan Distribusi Air</span></a>
+  </div>
+  <div id="wb_element_instance794" class="wb_element">
+    <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_faktork" href=""><span>Download Perhitungan Faktor K</span></a>
+  </div>
+  <!--akhir download-->
