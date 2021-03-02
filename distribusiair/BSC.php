@@ -1,5 +1,8 @@
 <div class="context">
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 100px; left: 1263px; background-color: rgb(2, 255, 90); color: rgb(102, 102, 102); width: 15px; height: 15px;">
+  <div class="air">
+    <img src="../assets/images/air.png" alt="" srcset="">
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 100px; left: 1263px; background-color: white; color: rgb(102, 102, 102); width: 15px; height: 15px;">
 
   </div>
   <div class="bahan panah" data-rot="90" style="position: absolute; top: 1220px; left: -331px; transform: rotate(90deg); width: 2000px;">
@@ -11,8 +14,8 @@
   <div class="bahan panah" data-rot="360" style="position: absolute; top: 221px; left: 667px; transform: rotate(360deg); width: 600px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 213px; left: 1264px; background-color: rgb(255, 188, 4); width: 15px; height: 15px;">
-
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 213px; left: 1264px; background-color: white; width: 15px; height: 15px;">
+    <div class="bagi animate__animated animate__fadeIn animate__infinite infinite animate__fast" id="bagi2"></div>
   </div>
 
 
@@ -123,8 +126,8 @@
 
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1164px; left: 660px; background-color: rgb(213, 1, 1); height: 15px; width: 15px;">
-
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1164px; left: 660px; background-color: white; height: 15px; width: 15px;">
+    <div class="bagi-sadap animate__animated animate__fadeIn animate__infinite infinite animate__fast" id="bs2"></div>
   </div>
   <table class="bahan table" data-rot="0" style="position: absolute; top: 100px; left: 1069px;">
     <thead>
@@ -8199,188 +8202,190 @@
   <div class="bahan panah" data-rot="360" style="position: absolute; top: 2881px; left: 1221px; transform: rotate(360deg); width: 50px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 301px; left: 288px; background-color: rgb(0, 247, 255);">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 301px; left: 288px;">
+    <div class="bagi-sadap" style="top:2px;left:2px;"></div>
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 332px; left: 288px; background-color: rgb(255, 0, 0);">
-
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 332px; left: 288px; background-color: white;">
+    <div class="bagi-sadap animate__animated animate__fadeIn animate__infinite infinite animate__fast" id="bs1"></div>
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 367px; left: 288px; background-color: rgb(255, 188, 4);">
 
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 367px; left: 288px; background-color: white;">
+    <div class="bagi animate__animated animate__fadeIn animate__infinite infinite animate__fast" id="bagi1">
+    </div>
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 401px; left: 288px; background-color: rgb(0, 255, 89);">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 401px; left: 288px; background-color: white;">
 
   </div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 325px; left: 311px;width: 235px;"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Bagi Sadap</span></div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 296px; left: 310px; width: 200px;"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Sadap</span></div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 359px; left: 313px;width: 186px;"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Bagi</span></div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 390px; left: 314px; width: 210px; color: rgb(0, 0, 0);"><span style="color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700;">Bangunan Corong&nbsp;</span><br></div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 209px; left: 1145px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
-  
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 209px; left: 1145px; background-color: white; height: 15px; width: 15px;">
+
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 211px; left: 1011px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 211px; left: 1011px; background-color: white; height: 15px; width: 15px;">
 
   </div>
 
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 625px; left: 659px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 625px; left: 659px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 532px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 532px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 435px; left: 657px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 435px; left: 657px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 350px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 350px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 210px; left: 732px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 210px; left: 732px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 210px; left: 873px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 210px; left: 873px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 726px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 726px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
   <!--  sadap -->
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 824px; left: 658px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 824px; left: 658px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
   </div>
   <!-- corong -->
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 911px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 911px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 988px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 988px; left: 659px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1073px; left: 660px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1073px; left: 660px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1164px; left: 457px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1164px; left: 457px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1321px; left: 204px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1321px; left: 204px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1426px; left: 204px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1426px; left: 204px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1638px; left: 205px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1638px; left: 205px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1531px; left: 207px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1750px; left: 204px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1531px; left: 207px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1855px; left: 205px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1750px; left: 204px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1966px; left: 206px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1855px; left: 205px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 2084px; left: 206px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1321px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1966px; left: 206px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1427px; left: 659px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1528px; left: 658px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1638px; left: 658px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2084px; left: 206px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1744px; left: 659px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1857px; left: 659px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1321px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1969px; left: 661px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1427px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 2082px; left: 659px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1528px; left: 658px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1638px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1744px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1857px; left: 659px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1969px; left: 661px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2082px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2208px; left: 660px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 2208px; left: 660px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
   </div>
 
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 351px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 351px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 460px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 460px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 568px; left: 1264px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 568px; left: 1264px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 668px; left: 1265px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 668px; left: 1265px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 769px; left: 1264px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 769px; left: 1264px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 878px; left: 1264px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 878px; left: 1264px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 988px; left: 1262px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 988px; left: 1262px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1108px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1108px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
 
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1219px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1219px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1341px; left: 1264px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1341px; left: 1264px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1457px; left: 1264px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 1577px; left: 1264px; height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1695px; left: 1262px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1457px; left: 1264px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1802px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1577px; left: 1264px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1919px; left: 1262px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1695px; left: 1262px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2039px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1802px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2172px; left: 1261px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1919px; left: 1262px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2273px; left: 1262px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2039px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2370px; left: 1263px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2172px; left: 1261px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 2489px; left: 1263px;  height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
+  </div>
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2616px; left: 1264px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2273px; left: 1262px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2739px; left: 1265px; background-color: white; height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2370px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2489px; left: 1263px; background-color: rgb(49, 249, 255); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2616px; left: 1264px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2739px; left: 1265px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
-
-  </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2873px; left: 1263px; background-color: rgb(49, 249, 255); height: 15px; width: 15px;">
-
+  <div class="bahan sadap animated" data-rot="0" style="position: absolute; top: 2873px; left: 1263px;  height: 15px; width: 15px;">
+    <div class="bagi-sadap" style="top:3px;left:3px;"></div>
   </div>
   <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 117px; left: 1284px; color: rgb(255, 0, 0); width: 70px;">CSc. 1
   </div>
@@ -8886,11 +8891,11 @@
     </tbody>
   </table>
 </div>
-  <!--download-->
-  <div id="wb_element_instance793" class="wb_element">
-    <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_perhitungan" href=""><span>Download Perhitungan Distribusi Air</span></a>
-  </div>
-  <div id="wb_element_instance794" class="wb_element">
-    <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_faktork" href=""><span>Download Perhitungan Faktor K</span></a>
-  </div>
-  <!--akhir download-->
+<!--download-->
+<div id="wb_element_instance793" class="wb_element">
+  <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_perhitungan" href=""><span>Download Perhitungan Distribusi Air</span></a>
+</div>
+<div id="wb_element_instance794" class="wb_element">
+  <a class="wb_button" onclick="btnDownload(this.id)" id="donlot_faktork" href=""><span>Download Perhitungan Faktor K</span></a>
+</div>
+<!--akhir download-->
