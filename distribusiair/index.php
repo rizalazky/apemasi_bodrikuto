@@ -100,7 +100,7 @@
 
     function fetchData() {
       // console.log('test')
-      fetch('http://localhost/apemasi_bodrikuto/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
+      fetch('http://bodrikuto.com/distribusiair/getBendung.php?kode_bendung=' + KodeBendung).
       then(res => {
         return res.json()
       }).then(result => {
