@@ -24,8 +24,6 @@
   // include 'conn.php';
   include 'template/header.php';
   if (!empty($_GET['kode_bendung'])) { ?>
-
-
     <?php
     include './detail.php';
     ?>
