@@ -18,7 +18,7 @@ $receivingDatetime     = $_POST['time'];
 if ($auth=='b3901828dd8d18abb82d47f7ecffb537'){
     $quey="INSERT INTO elevasi(kode,bendung,elevasi,debit,Qka,Qki,tgl,jam,status,petugas) VALUES('$kode','$bendung','$elevasi','$debit','$Qka','$Qki','$tgl','$jam','$status','$petugas')" ;
     $smsquery="INSERT INTO inbox(TextDecoded,SenderNumber,ReceivingDateTime)VALUES('$sms','$sendNomer','$receivingDatetime')";
-    if(mysql_query($quey) && mysql_query($smsquery)){
+    if(mysql_query($quey) AND mysql_query($smsquery)){
         echo "Berhasi;";
     }else{
         echo "gagal".mysql_error();
