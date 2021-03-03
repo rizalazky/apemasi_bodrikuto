@@ -49,7 +49,6 @@
 	</div>
 	<div id="wb_element_instance529" class="wb_element" style=" line-height: normal;">
 		<p class="wb-stl-normal" style="text-align: center;"><strong>Faktor K</strong></p>
-
 		<p class="wb-stl-normal" style="text-align: center;"><strong>ditetapkan</strong></p>
 	</div>
 	<div id="wb_element_instance530" class="wb_element" style=" line-height: normal;">

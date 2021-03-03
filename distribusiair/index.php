@@ -188,9 +188,18 @@
     function setDetail() {
       let debit = 0
       let diperlukan = Number(data["q_debit"][0].debit)
-      for (let i = 0; i < qdiberi.length; i++) {
-        debit = debit + Number(qdiberi[i]);
-      }
+      // 3 maret 2021
+      // for (let i = 0; i < qdiberi.length; i++) {
+      //   debit = debit + Number(qdiberi[i]);
+      // }
+      for (let x = 0; x < data["query"].length; x++) {
+          if (lokasi[i].value == data["query"][x].lokasi) {
+            // area = data["query"][x].a_tanam;
+            // qAlir = data["query"][x].q_diberikan
+            debit = debit + Number(data["query"][x].q_diberikan);
+          }
+        }
+        //end 3 maret 2021
       let debitTersedia = document.getElementById('debittersedia')
       let debitDiperlukan = document.getElementById('debitdiperlukan')
       let faktorK = document.getElementById('faktorK')
