@@ -52,7 +52,7 @@
 		<p class="wb-stl-normal" style="text-align: center;"><strong>ditetapkan</strong></p>
 	</div>
 	<div id="wb_element_instance530" class="wb_element" style=" line-height: normal;">
-		<h4 class="wb-stl-pagetitle" id="debittersedia" style="text-align: right;">64.44</h4>
+		<h4 class="wb-stl-pagetitle" id="debitdiperlukan" style="text-align: right;">64.44</h4>
 	</div>
 	<div id="wb_element_instance531" class="wb_element" style=" line-height: normal;">
 		<p class="wb-stl-normal">
@@ -60,7 +60,7 @@
 		</p>
 	</div>
 	<div id="wb_element_instance532" class="wb_element" style=" line-height: normal;">
-		<h4 class="wb-stl-pagetitle" id="debitdiperlukan" style="text-align: right;">4.44</h4>
+		<h4 class="wb-stl-pagetitle" id="debittersedia" style="text-align: right;">4.44</h4>
 	</div>
 	<div id="wb_element_instance533" class="wb_element" style=" line-height: normal;">
 		<p class="wb-stl-normal"><strong>m3/dtk</strong></p>
