@@ -192,13 +192,15 @@
       // for (let i = 0; i < qdiberi.length; i++) {
       //   debit = debit + Number(qdiberi[i]);
       // }
-      for (let x = 0; x < data["query"].length; x++) {
+      for (let i = 0; i < table.length; i++) {
+        for (let x = 0; x < data["query"].length; x++) {
           if (lokasi[i].value == data["query"][x].lokasi) {
             // area = data["query"][x].a_tanam;
             // qAlir = data["query"][x].q_diberikan
             debit = debit + Number(data["query"][x].q_diberikan);
           }
         }
+      }
         //end 3 maret 2021
       let debitTersedia = document.getElementById('debittersedia')
       let debitDiperlukan = document.getElementById('debitdiperlukan')
