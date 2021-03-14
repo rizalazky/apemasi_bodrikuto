@@ -1,4 +1,34 @@
-<?php $_F=__FILE__;$_X='Pz48P3BocA0KNG5jbDNkNSAiYzJuZjRnL2sybjVrczQucGhwIjsNCmYzbmN0NDJuIDFudDRfNG5qNWN0NDJuKCRkMXQxKXsNCiAgJGY0bHQ1ciA9IG15c3FsX3I1MWxfNXNjMXA1X3N0cjRuZyhzdHI0cHNsMXNoNXMoc3RyNHBfdDFncyhodG1sc3A1YzQxbGNoMXJzKCRkMXQxLEVOVF9RVU9URVMpKSkpOw0KICByNXQzcm4gJGY0bHQ1cjsNCn0NCg0KJDNzNXJuMW01ID0gMW50NF80bmo1Y3Q0Mm4oJF9QT1NUWyczczVybjFtNSddKTsNCiRwMXNzICAgICA9IDFudDRfNG5qNWN0NDJuKG1kaSgkX1BPU1RbJ3Axc3N3MnJkJ10pKTsNCg0KLy8gcDFzdDRrMW4gM3M1cm4xbTUgZDFuIHAxc3N3MnJkIDFkMWwxaCBiNXIzcDEgaDNyM2YgMXQxMyAxbmdrMS4NCjRmICghY3R5cDVfMWxuM20oJDNzNXJuMW01KSBPUiAhY3R5cDVfMWxuM20oJHAxc3MpKXsNCiAgNWNoMiAiUzVrMXIxbmcgbDJnNG5ueTEgdDRkMWsgYjRzMSBkNCA0bmo1a3M0IGxoMi4iOw0KfQ0KNWxzNXsNCiRsMmc0bj1teXNxbF9xMzVyeSgiU0VMRUNUICogRlJPTSAzczVycyBXSEVSRSAzczVybjFtNT0nJDNzNXJuMW01JyBBTkQgcDFzc3cycmQ9JyRwMXNzJyBBTkQgYmwyazRyPSdOJyIpOw0KJGs1dDVtMz1teXNxbF9uM21fcjJ3cygkbDJnNG4pOw0KJHI9bXlzcWxfZjV0Y2hfMXJyMXkoJGwyZzRuKTsNCg0KLy8gQXAxYjRsMSAzczVybjFtNSBkMW4gcDFzc3cycmQgZDR0NW0zazFuDQo0ZiAoJGs1dDVtMyA+IDApew0KICBzNXNzNDJuX3N0MXJ0KCk7DQoNCiAgJF9TRVNTSU9OW24xbTEzczVyXSAgICAgPSAkclszczVybjFtNV07DQogICRfU0VTU0lPTltuMW0xbDVuZ2sxcF0gID0gJHJbbjFtMV9sNW5nazFwXTsNCiAgJF9TRVNTSU9OW3Axc3MzczVyXSAgICAgPSAkcltwMXNzdzJyZF07DQogICRfU0VTU0lPTltzNXNzNGRdICAgICAgID0gJHJbNGRfczVzczQybl07DQogICRfU0VTU0lPTltsNXY1bDNzNXJdICAgID0gJHJbbDV2NWxdOw0KDQogIGg1MWQ1cignbDJjMXQ0Mm46bTVkNDEucGhwP20yZDNsNT1oMm01Jyk7DQp9DQo1bHM1ew0KDQogICA1Y2gyICINCiAgPGw0bmsgaHI1Zj0nY3NzL3oxbHN0eWw1LmNzcycgcjVsPSdzdHlsNXNoNTV0JyB0eXA1PSd0NXh0L2Nzcyc+IjsNCg0KICA1Y2gyICINCiAgPC9oNTFkPg0KICA8YjJkeSBjbDFzcz0nc3A1YzQxbC1wMWc1Jz4NCiAgPGQ0diA0ZD0nYzJudDE0bjVyJz4NCiAgPHM1Y3Q0Mm4gNGQ9JzVycjJyLW4zbWI1cic+DQogIA0KICA8NG1nIHNyYz0nNG1nL2wyY2sucG5nJz4NCiAgPGg2PkxPR0lOIEdBR0FMPC9oNj4NCiAgDQogIDxwPjxzcDFuIGNsMXNzIHN0eWw1PVwiZjJudC1zNHo1OjZ1cHg7IGMybDJyOiNjY2M7XCI+VXM1cm4xbTUgMXQxMyBQMXNzdzJyZCAxbmQxIHQ0ZDFrIHM1czMxNC48YnI+DQogIEF0MTMgMWszbiAxbmQxIHM1ZDFuZyBkNGJsMms0ci48L3A+PC9zcDFuPjxici8+DQogIA0KICA8L3M1Y3Q0Mm4+DQogIA0KICA8czVjdDQybiA0ZD0nNXJyMnItdDV4dCc+DQogIDxwPjwxIGNsMXNzPSdiM3R0Mm4nIGhyNWY9JzRuZDV4LnBocCc+Jm5ic3A7Jm5ic3A7IDxiPlVMQU5HSSBMQUdJPC9iPiAmbmJzcDsmbmJzcDs8LzE+PC9wPg0KICA8L3M1Y3Q0Mm4+DQogIDwvZDR2PiI7DQoNCn0NCn0NCj8+DQo=';
-eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLC
-cxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GS
-UxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));?>
+<?php
+include "config/koneksi.php";
+function anti_injection($data)
+{
+  $filter = mysql_real_escape_string(stripslashes(strip_tags(htmlspecialchars($data, ENT_QUOTES))));
+  return $filter;
+}
+
+$username = anti_injection($_POST['username']);
+$pass     = anti_injection(md5($_POST['password']));
+
+// pastikan username dan password adalah berupa huruf atau angka.
+if (!ctype_alnum($username) or !ctype_alnum($pass)) {
+  echo "Sekarang loginnya tidak bisa di injeksi lho.";
+} else {
+  $login = mysql_query("SELECT * FROM users WHERE username='$username' AND password='$pass' AND blokir='N'");
+  $ketemu = mysql_num_rows($login);
+  $r = mysql_fetch_array($login);
+
+  // Apabila username dan password ditemukan
+  if ($ketemu > 0) {
+    session_start();
+
+    $_SESSION[namauser]     = $r[username];
+    $_SESSION[namalengkap]  = $r[nama_lengkap];
+    $_SESSION[passuser]     = $r[password];
+    $_SESSION[sessid]       = $r[id_session];
+    $_SESSION[leveluser]    = $r[level];
+
+    header('location:media.php?module=home');
+  } else {
+    echo "<script>alert('Maaf,Username dan Password Salah'); window.location = './login/'</script>";
+  }
+}
