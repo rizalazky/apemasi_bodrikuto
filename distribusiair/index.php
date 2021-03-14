@@ -43,7 +43,7 @@
         ?>
             <div class="list-bendung-item">
               <a href="?kode_bendung=<?php echo $r['kode']; ?>" class='list-bendung-card'>
-                <img src="../assets/images/mejagong1.jpg" alt="gambarbendung" class='list-bendung-image animate__animated animate__zoomInDown'>
+                <img src="../assets/images/sucen.jpg" alt="gambarbendung" class='list-bendung-image animate__animated animate__zoomInDown'>
                 <div class='list-bendung-desc animate__animated animate__zoomInDown'>
                   <h3><?php echo $r['bendung']; ?></h3>
                 </div>
@@ -201,7 +201,7 @@
           }
         }
       }
-        //end 3 maret 2021
+      //end 3 maret 2021
       let debitTersedia = document.getElementById('debittersedia')
       let debitDiperlukan = document.getElementById('debitdiperlukan')
       let faktorK = document.getElementById('faktorK')
@@ -210,17 +210,17 @@
       debitDiperlukan.innerHTML = diperlukan.toFixed(2)
       periode.innerHTML = "<strong>: " + data['periode'] + "</strong>"
       debitTersedia.innerHTML = debit.toFixed(2)
-      faktorK.innerHTML = debit / diperlukan > 1 ? "<strong>" + '1.00' + "</strong>" : "<strong>" + (debit / diperlukan).toFixed(2) + "</strong>"
+      faktorK.innerHTML = diperlukan / debit > 1 ? "<strong>" + '1.00' + "</strong>" : "<strong>" + (diperlukan / debit).toFixed(2) + "</strong>"
 
     }
 
     function btnDownload(id) {
       if (id = 'donlot_perhitungan') {
         document.getElementById(id).href = "../uplod/" + data['file_alokasi']
-      }else{
-        document.getElementById(id).href = "../uplod/" + data['file_faktor_k']  
+      } else {
+        document.getElementById(id).href = "../uplod/" + data['file_faktor_k']
       }
-      
+
     }
   </script>
 

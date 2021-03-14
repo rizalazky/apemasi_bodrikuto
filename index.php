@@ -40,13 +40,13 @@
               </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item">
-                  <img class="img-responsive" src="assets/images/mejagong1.jpg" alt="First slide">
+                  <img class="img-responsive" src="assets/images/sucen.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item active">
-                  <img class="img-responsive" src="assets/images/gabungan.jpg" alt="Second slide">
+                  <img class="img-responsive" src="assets/images/ajigetas.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="img-responsive" src="assets/images/waduk-cacaban.jpg" alt="Third slide">
+                  <img class="img-responsive" src="assets/images/rejoso.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -80,8 +80,8 @@
               <div class="col-lg-4 col-md-6 m-t-30">
                 <div class="card card-outline-inverse" style="background-color: #35db64; border-color: #35db64;">
                   <div class="card-body">
-                    <p style="color: #fafafa">CONTENT 2</p>
-                    <a href="./distribusiair/" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#32d15f; border-color:#32d15f; margin: 5px;" title="Task Progression 2019"><i class="fa fa-bar-chart-o"></i></a>
+                    <p style="color: #fafafa">CLEARING HOUSE HIDROKLIMATOLOGI</p>
+                    <a href="http://jateng.hidromet.sih3.bmkg.go.id/" class="btn waves-effect waves-light btn-lg btn-secondary" style="background-color:#32d15f; border-color:#32d15f; margin: 5px;" title="Task Progression 2019"><i class="fa fa-bar-chart-o"></i></a>
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@
               <div class="col-lg-3 col-md-6">
                 <div class="card card-outline-inverse" style="background-color: #eb4f46; border-color: #eb4f46;">
                   <div class="card-body">
-                    <p style="color: #fafafa">CONTENT 4</p>
+                    <p style="color: #fafafa">POS HIDROKLIMATOLOGI TELEMETRI</p>
                     <a href="http://jateng.hidromet.sih3.bmkg.go.id/" class="btn btn-lg btn-secondary" style="background-color: #e64b43; border-color: #e64b43; margin: 5px;" title="Sistem Informasi Pegawai"><i class="fa fa-institution"></i></a>
                   </div>
                 </div>
@@ -116,7 +116,7 @@
                 <div class="card card-outline-inverse" style="background-color: #59e3b2; border-color: #59e3b2;">
                   <div class="card-body">
                     <p style="color: #fafafa">Publikasi Alokasi Air</p>
-                    <a href="distribusiair" class="btn btn-lg btn-secondary" style="background-color: #54d6a8; border-color: #54d6a8; margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
+                    <a href="./distribusiair/" class="btn btn-lg btn-secondary" style="background-color: #54d6a8; border-color: #54d6a8; margin: 5px;" title="Publikasi Alokasi Air"><i class="mdi mdi-wrench"></i></a>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@
   <!-- barbawah -->
   <footer class="footer">
 
-    © 2021 PEMALI COMAL
+    © 2021 BODRI KUTO
 
   </footer>
 
